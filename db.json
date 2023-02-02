@@ -1,0 +1,20 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Zarina",
+      "surname": "Seker",
+      "number": "40",
+      "class": "6/C",
+      "school": "Zwijsen"
+    },
+    {
+      "id": "1675334765713",
+      "name": "Zarina",
+      "surname": "Devrish",
+      "number": "40",
+      "class": "7/A",
+      "school": "Flowers"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+Ogrenci kayit otomasyonu
+
+A. Dependencies:
+    -> json-server (fake api) +
+    -> axios (api ile iletisim icin) +
+    -> react-router-dom (sayfalama yapisi icin) +
+    -> bootstrap (ui kutuphanesi) +
+
+B. Isleyis:
+    -> bootstrap dahil edildi +
+    -> json-server icin veri yapisi ve port ayarlamasi yapildi +
+    -> react-router-dom icin alt yapinin hazirlanmasi +
+    -> genel bir Header component hazirlamak +
+
+C. Uygulamanin kurallari:
+    ->  Anasayfada butum ogrenciler listelenecek +
+    ->  Anasayfada bulunan bir buton vasitasiyla ogrenci ekleme sayfasina
+        gidilecek; ogrenci ekleme basarili olduktan sonra ana sayfaya donulecek. +
+    ->  Listelenen ogrenci tablosunda islemler isimli bir sutun olacak. +
+        Bu sutunda sil ve guncelle butonu olacak. +
+    ->  Sil butonunda ogrenci silme islemi gerceklestirilecek.
+    ->  Guncelle butonuna tiklandiginda yeni sayfa acilacak (/edit-student/id)
+        ve bu sayfada guncelleme basariyla gerceklestirildikten sonra 
+        tekrar ana sayfaya donulecek.
+
+
+
+
+        
