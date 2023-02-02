@@ -1,3 +1,44 @@
+<h1>STUDENT REGISTRATION FORM</h1>
+
+<h3>This site is built by using <b>REACT.js</b> and <a href="https://www.bootstrapcdn.com/"><b>BOOTSTRAP </b> </a>.</h3>
+
+<h3> In this site you can add, delete and edit students. </h3>
+
+<h3> You can navigate between pages </h3>
+
+<h3> I used so dependencies as: <b>axios</b>, <b>react-router-dom</b>, <b>json-server</b> </h3>
+
+<h3>Preview:</h3>
+
+![](.gif)
+
+Enjoy Coding ❤
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

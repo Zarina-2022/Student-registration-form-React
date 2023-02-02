@@ -21,7 +21,7 @@ const Home = () => {
     if(students === null) return null
     return (
         <div>
-            <Header />
+            <Header whichPage={"home"} />
             <StudentsList students={students} didUpdate={didUpdate} setDidUpdate={setDidUpdate}/>
         </div>
     )

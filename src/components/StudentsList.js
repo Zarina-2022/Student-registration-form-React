@@ -52,7 +52,7 @@ const StudentsList = ({ students, didUpdate, setDidUpdate }) => {
                                             <td>
                                                 <div className="btn-group" role="group" aria-label="Basic example">
                                                     <button onClick={() => deleteStudent(student.id)} type="button" className="btn btn-sm btn-outline-danger">Delete</button>
-                                                    <Link to={"#"} type="button" className="btn btn-sm btn-outline-info">Edit</Link>
+                                                    <Link to={`/edit-student/${student.id}`} className="btn btn-sm btn-outline-info">Edit</Link>
                                                 </div>
                                                 
                                             </td>

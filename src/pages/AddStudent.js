@@ -57,8 +57,9 @@ const AddStudent = () => {
 
     return (
         <div>
-            <Header />
+            <Header whichPage={"add-student"}/>
             <div className="container my-5">
+            <h1 className="text-center mb-5">Add New Student Page</h1>
                 <form onSubmit={handleSaveBtn}>
                     <div className="mb-3">
                         <label htmlFor="firstName" className="form-label"><strong>Student's firstname:</strong></label>

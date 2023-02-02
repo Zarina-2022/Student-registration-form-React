@@ -23,6 +23,25 @@ C. Uygulamanin kurallari:
         ve bu sayfada guncelleme basariyla gerceklestirildikten sonra 
         tekrar ana sayfaya donulecek.
 
+    -> Guncelleme (edit) islemi:
+        * Guncelleme islemi farkli bir sayfada yapilacak. 
+          Bunun icin bir link olmali ve bu linke tiklandiginda
+          guncelleme yapilacak sayfaya gitmeli. +
+        * Hangi ogrenci guncellenecekse o ogrencinin id bilgisini 
+          edit sayfasina tasimaliyim. +
+        * Edit sayfasinda url ile tasinan id bilgisini okumaliyim.
+          Bunun icin react-router-dom'un {useParams} yetenegini sayfaya import yapmaliyiz. +
+        * Okudugum ogrenci id'sini kullanarak ilgili ogrenciye ait 
+          bilgileri cekmeliyim. +
+        * Cektigim verileri kullanarak ogrenci bilgilerini guncelletecek 
+          form hazirlamaliyim. +
+        * Hazirladigim formu cektigim verilerle doldurmaliyim. +
+        * Kullanici verileri guncelledikten sonra form kontrol edilerek
+          guncel halini kaydettirme islemi yapilacak. +
+        * Guncelleme islemi basariliysa tekrar ana sayfaya donsun, hataliysa bir alert verilsin. +
+        
+
+
 
 
 

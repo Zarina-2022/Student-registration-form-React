@@ -1,10 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom"
 
-const Header = () => {
+const Header = ({whichPage="home"}) => { // propa defaul verebiliriz
+    // her sayfaya farkli komut verebiliriz artik (mesela farkli renk):
+    var headerBg = "bg-dark" // bootstrap ozellikleri kullaniyorum
+    
+    if(whichPage === "add-student"){
+        headerBg = "bg-success"
+    }
+    if(whichPage === "edit-student"){
+        headerBg = "bg-danger"
+    }
 
     return (
-        <nav className="navbar navbar-expand-md navbar-dark bg-dark">
+        <nav className={`navbar navbar-expand-md navbar-dark ${headerBg}`}>
             <div className="container-fluid">
                 <Link className="navbar-brand" to="#">Students' Registration form</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
