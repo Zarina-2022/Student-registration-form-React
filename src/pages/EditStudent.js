@@ -89,7 +89,7 @@ const handleSubmit=(event)=>{
                         <input type="text" className="form-control" id="school" placeholder="Zwijsen"  value={school} onChange={(event)=>setSchool(event.target.value)}/>
                     </div>
                     <div className="d-flex justify-content-center">
-                        <button className="btn btn-success w-50 my-4" type="submit">Update</button>
+                        <button className="btn btn-danger w-50 my-4" type="submit">Update</button>
                     </div>
                 </form>
             </div>

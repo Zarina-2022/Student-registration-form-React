@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 const Header = ({whichPage="home"}) => { // propa defaul verebiliriz
     // her sayfaya farkli komut verebiliriz artik (mesela farkli renk):
-    var headerBg = "bg-dark" // bootstrap ozellikleri kullaniyorum
+    var headerBg = "bg-primary" // bootstrap ozellikleri kullaniyorum
     
     if(whichPage === "add-student"){
         headerBg = "bg-success"

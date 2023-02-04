@@ -22,7 +22,7 @@ const AddStudent = () => {
         }
 
         const hasStudent=students.find(item=>item.number === number && item.school === school)
-        if(hasStudent !== undefined && hasStudent !== undefined){
+        if(hasStudent !== undefined){
             // alert(`Another student has been registered with number ${number} `) // sadece number daha once kayitli ise kayit etmez
             alert(`Another student with the number ${number} has already been registered at school ${school} `) // kayit ederken hem okul hem number daha once kayitli ise kayit etmez
             return
