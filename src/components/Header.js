@@ -11,6 +11,9 @@ const Header = ({whichPage="home"}) => { // propa defaul verebiliriz
     if(whichPage === "edit-student"){
         headerBg = "bg-danger"
     }
+    if(whichPage === "student-detail"){
+        headerBg = "bg-warning"
+    }
 
     return (
         <nav className={`navbar navbar-expand-md navbar-dark ${headerBg}`}>

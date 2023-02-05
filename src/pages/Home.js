@@ -22,7 +22,11 @@ const Home = () => {
     return (
         <div>
             <Header whichPage={"home"} />
-            <StudentsList students={students} didUpdate={didUpdate} setDidUpdate={setDidUpdate}/>
+            <StudentsList 
+                students={students} 
+                didUpdate={didUpdate} 
+                setDidUpdate={setDidUpdate}
+            />
         </div>
     )
 }
